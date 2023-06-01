@@ -26,6 +26,8 @@ data class House (
     @Column
     @Enumerated(value = EnumType.STRING)
     val status: Status
+
+
 ): EntityBase(){
 
 }
